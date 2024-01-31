@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: green;
+    text-align: center;
+}
+h1:hover{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-align: center;
+    transition: 1s;
+}
+div{
+    width: 400px;
+    height: 300px;
+    background-color: orange;
+    border-radius: 30px 50px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div:hover{
+    width: 400px;
+    height: 300px;
+    background-color: black;
+    border-radius: 60px 60px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    border:12px solid orange;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    transition: 2s;
+}
